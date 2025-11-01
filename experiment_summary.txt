@@ -1,0 +1,45 @@
+COMPUTER VISION ASSIGNMENT 1 - SUMMARY REPORT
+==================================================
+
+CANNY EDGE DETECTOR RESULTS:
+------------------------------
+
+NATURAL:
+  full_res_dark: low=25, high=50
+  full_res_full_contrast: low=70, high=210
+  quarter_res_dark: low=40, high=80
+  quarter_res_full_contrast: low=40, high=80
+
+URBAN:
+  full_res_dark: low=20, high=40
+  full_res_full_contrast: low=70, high=210
+  quarter_res_dark: low=30, high=60
+  quarter_res_full_contrast: low=40, high=80
+
+PERSON:
+  full_res_dark: low=15, high=30
+  full_res_full_contrast: low=30, high=90
+  quarter_res_dark: low=20, high=40
+  quarter_res_full_contrast: low=40, high=80
+
+
+HARRIS CORNER DETECTOR RESULTS:
+------------------------------
+
+NATURAL:
+  full_res_dark: blockSize=4, k=0.040, corners=21410
+  full_res_full_contrast: blockSize=2, k=0.040, corners=2397728
+  quarter_res_dark: blockSize=2, k=0.040, corners=149941
+  quarter_res_full_contrast: blockSize=2, k=0.040, corners=149633
+
+URBAN:
+  full_res_dark: blockSize=3, k=0.020, corners=969
+  full_res_full_contrast: blockSize=2, k=0.040, corners=34050352
+  quarter_res_dark: blockSize=2, k=0.040, corners=2110939
+  quarter_res_full_contrast: blockSize=2, k=0.040, corners=54978
+
+PERSON:
+  full_res_dark: blockSize=2, k=0.040, corners=10
+  full_res_full_contrast: blockSize=2, k=0.040, corners=189
+  quarter_res_dark: blockSize=2, k=0.040, corners=1622351
+  quarter_res_full_contrast: blockSize=2, k=0.040, corners=1622369
